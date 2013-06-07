@@ -17,7 +17,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // 여기!!
-    [Baasio setApplicationInfo:@"${Your baas.io ID}" applicationName:@"${Your Application ID}"];
+    [Baasio setApplicationInfo:@"<#Your baas.io ID#>" applicationName:@"<#Your Application ID#>"];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
